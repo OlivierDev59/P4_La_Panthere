@@ -6,6 +6,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* contact */
+.color-contact {
+  color: #000000 !important;
+}
+/* contact - END */
 
 /* img in h2 *//************************************************/
 .col-sm-12 h2 {
