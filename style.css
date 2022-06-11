@@ -41,21 +41,25 @@ body {
 }
 /* bloc 3 - END *//**********************************************/
 
-/* footer */
+/* footer *******************************************************/
 #bloc-8 .row {
   display: flex;
   justify-content: center;
 }
 
 #bloc-8 .col-sm-4 h4 {
-  color: #fff !important;
+  color: #000000 !important;
 }
 
 #bloc-8 .col-sm-4 {
   text-align: center;
   margin-top: 15px;
 }
-/* footer - END */
+
+#bloc-8 .col-sm-12 p {
+  color: black !important;
+}
+/* footer - END **************************************************/
 
 a,
 button {
@@ -840,11 +844,12 @@ h4 {
 
 .tc-white {
   color: #f3976c !important;
+  position: relative;
 }
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 
 .btn-atomic-tangerine:hover {
