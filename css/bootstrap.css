@@ -9,7 +9,8 @@
 html {
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%
+    -ms-text-size-adjust: 100%;
+    font-display: swap;
 }
 
 body {
@@ -1436,7 +1437,7 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     max-width: 320px;
-    height: auto
+    height: 320px
 }
 
 .img-rounded {
