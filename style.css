@@ -75,6 +75,10 @@ input {
   width: 40px;
   padding: 5px;
 }
+
+#bloc-8 li a:hover {
+  border-bottom: 1px solid black;
+}
 /* footer - END **************************************************/
 
 a,
