@@ -8,7 +8,7 @@ body {
 }
 /* contact */
 .color-contact {
-  color: #000000 !important;
+  color: #ffffff !important;
 }
 
 input {
@@ -57,7 +57,7 @@ input {
 }
 
 #bloc-8 .col-sm-4 h4 {
-  color: #000000 !important;
+  color: #ffffff !important;
 }
 
 #bloc-8 .col-sm-4 {
@@ -66,7 +66,7 @@ input {
 }
 
 #bloc-8 .col-sm-12 p {
-  color: black !important;
+  color: #ffffff !important;
 }
 
 #bloc-8 .icon-md {
@@ -74,6 +74,10 @@ input {
   border-radius: 15px 12px;
   width: 40px;
   padding: 5px;
+}
+
+#bloc-8 li a {
+  color: #ffffff !important;
 }
 
 #bloc-8 li a:hover {
@@ -859,7 +863,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-  background-color: #f3976c;
+  background-color: #8B1E00;
 }
 
 .tc-white {
@@ -868,8 +872,8 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-  background: #f3976c;
-  color: #000000 !important;
+  background: #8B1E00;
+  color: #ffffff !important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -902,10 +906,6 @@ h4 {
 
 .bg-dots-bg {
   background-image: url("img/dots-bg.png");
-}
-
-.bg-lines-h2-bg {
-  background-image: url("img/lines-h2-bg.png");
 }
 
 .bg-banniere {
