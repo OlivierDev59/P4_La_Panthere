@@ -988,6 +988,18 @@ h4 {
     height: 300px;
   }
   /* modif taille img - END ********************************************/
+  
+  /* modif taille logo */
+    .center-block {
+      width: 90px;
+      height: 90px;
+    }
+
+    .navbar-brand img {
+      height: 35px;
+      width: auto;
+    }
+  /* modif taille logo - END */
   .page-container {
     overflow-x: hidden;
     position: relative;
@@ -1133,6 +1145,18 @@ h4 {
   height: 250px;
 }
 /* modif taille img - END ********************************************/
+
+/* modif taille logo */
+.center-block {
+  width: 80px;
+  height: 80px;
+}
+
+.navbar-brand img {
+  height: 30px;
+  width: auto;
+}
+/* modif taille logo - END */
 
   .bloc {
     padding-left: 0;
