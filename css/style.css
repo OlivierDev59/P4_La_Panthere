@@ -56,7 +56,7 @@ input {
   justify-content: center;
 }
 
-#bloc-8 .col-sm-4 h4 {
+#bloc-8 .col-sm-4 h3 {
   color: #ffffff !important;
 }
 
@@ -81,7 +81,18 @@ input {
 }
 
 #bloc-8 li a:hover {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #ffffff;
+}
+
+#bloc-8 li {
+  height: 40px;
+  width: auto;
+  margin: 0 20px;
+}
+
+#bloc-8 ul {
+  display: flex;
+  justify-content: center;
 }
 /* footer - END **************************************************/
 
@@ -997,9 +1008,14 @@ h4 {
 
     .navbar-brand img {
       height: 35px;
-      width: auto;
+      width: 200px;
     }
   /* modif taille logo - END */
+  /* footer */
+  #bloc-8 ul {
+    display: block;
+  }
+/* footer - END */
   .page-container {
     overflow-x: hidden;
     position: relative;
@@ -1154,7 +1170,7 @@ h4 {
 
 .navbar-brand img {
   height: 30px;
-  width: auto;
+  width: 180px;
 }
 /* modif taille logo - END */
 
