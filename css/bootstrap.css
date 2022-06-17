@@ -7158,6 +7158,7 @@ button.close {
 }
 
 .modal-body {
+    display: flex;
     position: relative;
     padding: 15px
 }
