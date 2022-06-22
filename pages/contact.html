@@ -29,7 +29,7 @@
 
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="../index.html"><img tabindex="1" src="../img/agence-la-panthere-monochrome.svg" alt="agence la panthère monochrome" /></a>
+				<a class="navbar-brand" href="../index.html" tabindex="1"><img src="../img/agence-la-panthere-monochrome.svg" alt="agence la panthère monochrome" /></a>
 				<button tabindex="1" id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -39,6 +39,8 @@
 					<li>
 						<a tabindex="1" href="../index.html" title="accueil" aria-label="bouton vers la page contact">Accueil</a>
 					</li>
+					<li></li>
+					<li></li>
 				</ul>
 			</div>
 		</nav>
@@ -69,7 +71,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" novalidate data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
 						<label tabindex="1" for="name">Nom</label>
 						<input tabindex="1" id="name" class="form-control" value="Nom" required />

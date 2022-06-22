@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* contact */
+/* contact ****************************************************/
 .color-contact {
   color: #ffffff !important;
 }
@@ -46,7 +46,7 @@ input {
 
 /* bloc 3 */
 .col-sm-12 p {
-  font-size: 2rem;
+  font-size: 24px;
 }
 /* bloc 3 - END *//**********************************************/
 
@@ -70,10 +70,11 @@ input {
 }
 
 #bloc-8 .icon-md {
-  background-color: #364577;
+  background-color: #BFB2FF;
   border-radius: 15px 12px;
   width: 40px;
   padding: 5px;
+  color: #00009A !important;
 }
 
 #bloc-8 li a {
@@ -95,14 +96,14 @@ input {
   justify-content: center;
 }
 /* footer - END **************************************************/
-/* elements focus  */
+/* elements focus  ***********************************************/
 a:focus-within {
   background-color: gray;
 }
 button:focus-within {
   background-color: gray;
 }
-/* elements focus - END */
+/* elements focus - END ******************************************/
 
 a,
 button {
@@ -785,7 +786,7 @@ a {
 }
 
 p {
-  font-size: 13px;
+  font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -818,7 +819,7 @@ h2 {
 }
 
 h3 {
-  font-size: 15px;
+  font-size: 24px;
   text-transform: uppercase;
   font-weight: 700;
   color: #333333 !important;
@@ -979,10 +980,7 @@ h4 {
     overflow-x: hidden;
     position: relative;
   }
-  /* .bloc {
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
-  } */
+
   .bloc-group,
   .bloc-group .bloc {
     display: block;
@@ -991,8 +989,6 @@ h4 {
   .bloc-fill-screen .fill-bloc-top-edge,
   .bloc-fill-screen .fill-bloc-bottom-edge {
     padding: 0 20px;
-    /* padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right); */
   }
 }
 
@@ -1015,12 +1011,12 @@ h4 {
       height: 35px;
       width: 200px;
     }
-  /* modif taille logo - END */
-  /* footer */
+  /* modif taille logo - END ********************************************/
+  /* footer *************************************************************/
   #bloc-8 ul {
     display: block;
   }
-/* footer - END */
+/* footer - END **********************************************************/
   .page-container {
     overflow-x: hidden;
     position: relative;
@@ -1160,14 +1156,14 @@ h4 {
 }
 
 @media (max-width: 400px) {
-/* modif taille img */
+/* modif taille img **************************************************/
 .img-responsive {
   width: 240px;
   height: 240px;
 }
 /* modif taille img - END ********************************************/
 
-/* modif taille logo */
+/* modif taille logo *************************************************/
 .center-block {
   width: 80px;
   height: 80px;
@@ -1177,7 +1173,7 @@ h4 {
   height: 30px;
   width: 180px;
 }
-/* modif taille logo - END */
+/* modif taille logo - END ********************************************/
 
   .bloc {
     padding-left: 0;
@@ -1191,9 +1187,6 @@ h4 {
   }
 
   /* modification */
-  .col-sm-12 p {
-    text-align: justify;
-  }
 
   #bloc-3 .col-sm-12 .text-center a {
     justify-content: center;
